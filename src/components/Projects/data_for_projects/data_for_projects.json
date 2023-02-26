@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": "2",
+            "pic": "https://www.botreetechnologies.com/blog/wp-content/uploads/2021/01/reactjs-app-maintenance-cost.jpg",
+            "projectname": "Study project: 'ToDoList'",
+            "projectdescription": "This study project was made during studying ReactJS at nFactorial School 🚀.",
+            "stackused": "JavaScript/ReactJS"
+        },
+        {
+            "id": "1",
+            "pic": "https://cdn.mos.cms.futurecdn.net/vZLMcEg5JqfGeXydVkkxhk-1200-80.jpg",
+            "projectname": " 🐕Pet-project: 🤖 Telegram Bot informing about weather condition ☔🌡☁",
+            "projectdescription": "This Telegram bot parses weather information based on city name a user sends to the bot.",
+            "stackused": "Python 🐍"
+        },
+        {
+            "id": "0",
+            "pic": "https://images.pond5.com/black-and-white-background-code-footage-144341579_iconl.jpeg",
+            "projectname": "🤖 Telegram Bot for Allur company's HR",
+            "projectdescription": "I've made Telegram bot for Allur company's HR. The bot helps the employees getting information via bot commands that send HR documents 📁 and forms 📃.",
+            "stackused": "Python 🐍"
+        }
+    ]
+}

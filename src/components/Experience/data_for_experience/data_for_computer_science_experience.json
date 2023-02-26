@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "since":"2022",
+            "until":"",
+            "role":"Analysis at HR dept",
+            "company":"Allur",
+            "country":"Kazakhstan",
+            "city":"Astana",
+            "description": "I made Telegram bot that can send files after getting chat-commands from users."
+        }
+    ]
+}

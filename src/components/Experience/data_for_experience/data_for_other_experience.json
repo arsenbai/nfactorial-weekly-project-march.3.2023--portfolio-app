@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "since":"2021",
+            "until":"2021",
+            "role":"Compensation and benefits manager",
+            "company":"Astana Motors",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": ""
+        },
+        {
+            "since":"2020",
+            "until":"2021",
+            "role":"Chief compensation and benefits officer",
+            "company":"Bank CenterCredit",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": "Produced Excel files for automatic estimations of bonuses for achieved KPIs of over 5K employees. Have enhanced HR internal managerial reports via inquiries to IT department. Processed HR data and interpreted it for the Top management"
+        },
+        {
+            "since":"2018",
+            "until":"2020",
+            "role":"Compensation and benefits officer",
+            "company":"'Magnum cash & carry' LLP",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": "Responsibilities: Estimating employees compensation bonuses via Excel spreadsheet on monthly and quarterly basis; Insurance of all supermarkets across Kazakhstan; HR data analyses for the HRD"
+        },
+        {
+            "since":"2016",
+            "until":"2018",
+            "role":"HR officer",
+            "company":"KIMEP University",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": "Responsibilities: Recruitment. Achievements: I hired 24 new foreign faculty members in 2017-2018"
+        },
+        {
+            "since":"2014",
+            "until":"2015",
+            "role":"Risk Management Officer",
+            "company":"Batys tranzit JSC",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": "Responsibilities: Improving Risk Management System, including aligning risk management system with corporate goals and strategy; Updating internal documents (Risk management policy, Risks registrar, Risks map, Risk manager position responsibility write-up)."
+        },
+        {
+            "since":"2012",
+            "until":"2014",
+            "role":"Cost Controls officer",
+            "company":"PromStroyEnergo LLP",
+            "country":"Kazakhstan",
+            "city":"Almaty",
+            "description": "Responsibilities: Project budget monitoring; Monthly costs reporting based on milestones and works done according to detailed estimate of construction cost; Monthly invoicing."
+        }
+    ]
+}
