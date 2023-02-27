@@ -41,10 +41,30 @@ export default function Header( {isMobile} ) {
                     justifyContent:"space-between",
                     gap: '32px'
                     }}>
-                    <a className="headerButton" href="#about">About</a>
-                    <a className="headerButton" href="#experience">Experience</a>
-                    <a className="headerButton" href="#projects">Projects</a>
-                    <a className="headerButton" href="#contacts">Contacts</a>
+                    {isMobile ? (
+                        <button onClick={() => menuBtnHandler()} style={{background: 'transparent', border: 'transparent'}}>
+                            <a className="headerButton" href="#target-about">About</a>
+                        </button>
+                    ): <a className="headerButton" href="#target-about">About</a>}
+                    
+                    {isMobile ? (
+                        <button onClick={() => menuBtnHandler()} style={{background: 'transparent', border: 'transparent'}}>
+                            <a className="headerButton" href="#target-experience">Experience</a>
+                        </button>
+                    ): <a className="headerButton" href="#target-experience">Experience</a>}
+
+                    {isMobile ? (
+                        <button onClick={() => menuBtnHandler()} style={{background: 'transparent', border: 'transparent'}}>
+                            <a className="headerButton" href="#target-projects">Projects</a>
+                        </button>
+                    ): <a className="headerButton" href="#target-projects">Projects</a>}
+
+                    {isMobile ? (
+                        <button onClick={() => menuBtnHandler()} style={{background: 'transparent', border: 'transparent'}}>
+                            <a className="headerButton" href="#target-contacts">Contacts</a>
+                        </button>
+                    ): <a className="headerButton" href="#target-contacts">Contacts</a>}
+                    
                 </div>
             </div>
         </div>

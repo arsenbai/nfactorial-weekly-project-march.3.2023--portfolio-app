@@ -2,6 +2,8 @@ import RenderOneProject from "./RenderOneProject";
 
 export default function Projects() {
     return (
+        <>
+        <span id="target-projects" style={{display: 'block', height: '60px'}}></span>
         <div id="projects" style={{
             display: 'flex',
             flexDirection: 'column',
@@ -18,5 +20,6 @@ export default function Projects() {
             <RenderOneProject />
 
         </div>
+        </>
     )
 }

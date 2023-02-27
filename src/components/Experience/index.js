@@ -5,6 +5,7 @@ import RenderOtherExperience from "./RenderOtherExperience";
 export default function Experience() {
     return (
         <>
+        <span id="target-experience" style={{display: 'block', height: '60px'}}></span>
         <div id="experience" style={{
             display: 'flex',
             alignContent: "space-between",

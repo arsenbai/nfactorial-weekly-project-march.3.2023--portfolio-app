@@ -267,7 +267,7 @@ a {
     }
 
     #promo {
-        padding: 80px 40px !important;
+        padding: 20px 50px !important;
     }
 
     #about {
@@ -276,8 +276,8 @@ a {
     }
     #about>img {
         order: -1;
-        height: calc(100%);
-        width: 100% !important;
+        height: calc(76.5%) !important;
+        width: calc(100%) !important;
         border: 2px solid #525B56;
     }
 
@@ -305,7 +305,7 @@ a {
 
     #one-project-container-div {
         flex-direction: column !important;
-        padding: 25px 40px !important;
+        padding: 30px 50px !important;
     }
 
     #pic-for-project {
@@ -330,7 +330,7 @@ a {
 
 
     #contacts {
-        padding: 80px 40px !important;
+        padding: 40px 50px !important;
     }
 
     #group-of-buttons-at-contacts {
@@ -339,13 +339,13 @@ a {
     
 
     #experience {
-        padding: 80px 40px !important;
+        padding: 20px 50px !important;
         gap: 60px !important;
     }
     
     #projects-container {
         /* padding: 80px 40px !important; */
-        padding: 20px 40px !important;
+        padding: 30px 50px !important;
     }
 
     /* #all-projects-div {

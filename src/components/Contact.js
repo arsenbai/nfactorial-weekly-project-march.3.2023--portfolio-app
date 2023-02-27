@@ -3,6 +3,8 @@ import whatsAppLogo from "./imgs/WhatsAppButtonGreenLarge.png";
 
 export default function Contact() {
     return (
+        <>
+        <span id="target-contacts" style={{display: 'block', height: '60px'}}></span>
         <div id="contacts" style={{
             display: 'flex',
             flexDirection: 'column',
@@ -45,5 +47,6 @@ export default function Contact() {
             
 
         </div>
+        </>
     )
 }

@@ -6,6 +6,7 @@ export default function About() {
 
     return (
         <>
+        <span id="target-about" style={{display: 'block', height: '60px'}}></span>
         <div id='about' style={{
             display: 'flex',
             alignContent: "space-between",
@@ -107,8 +108,8 @@ export default function About() {
             </div>
 
 
-            <img src={PortfolioAppPic} style={{
-                height: "calc(35% * 0.40)", 
+            <img id='profilepic' src={PortfolioAppPic} style={{
+                height: "calc(35% * 0.765)", 
                 width: "35%",
                 border: "4px solid #525B56"
                 }} alt="Arsen" />
