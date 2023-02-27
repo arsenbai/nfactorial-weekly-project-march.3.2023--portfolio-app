@@ -18,7 +18,7 @@ export default function Contact() {
                 marginBottom: '40px'
             }}>I’m software developer and this is my portfolio.</p>
 
-            <div style={{display: 'flex', alignItems: "center"}}>
+            <div id="group-of-buttons-at-contacts" style={{display: 'flex', alignItems: "center"}}>
 
                 <button className="orangeBtn">
                     <a className="spanInsideOrangeBtn" href="mailto:arsen.baiseupov@gmail.com" style={{textDecoration: "none"}}>

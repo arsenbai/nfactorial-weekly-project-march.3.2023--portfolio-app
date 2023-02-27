@@ -8,7 +8,7 @@ export default function RenderOtherExperience() {
     return (
         <>
         {arrayOfData.map((item, index) => (
-            <div style={{
+            <div id="one-position-container" style={{
                 display: 'flex',
                 flexDirection: 'row',
                 alignItems: 'flex-start',
@@ -19,7 +19,7 @@ export default function RenderOtherExperience() {
     
                 <div>
     
-                    <div>
+                    <div id="item-role-company">
                         <p className="font16px">
                             <span style={{fontSize: '22px', marginRight: '12px', color: '#BE9063'}}>&#9679;</span>
                             {`${item.role} at ${item.company}`}
@@ -33,7 +33,7 @@ export default function RenderOtherExperience() {
                         </p>
                     </div>
     
-                    <p className="font14px">
+                    <p id="item-descr" className="font14px">
                         {(item.description === "") ? "" : item.description}
                     </p>
                 </div>

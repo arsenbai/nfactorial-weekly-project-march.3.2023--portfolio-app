@@ -20,7 +20,7 @@ export default function Experience() {
                 alignItems: 'flex-start',
                 padding: '0px',
                 gap: '64px',
-                width: '630px'
+                width: '50%'
                 }}>
 
                     <div>
@@ -33,7 +33,7 @@ export default function Experience() {
                         alignItems: 'flex-start',
                         padding: '0px',
                         gap: '48px',
-                        width: '630px'
+                        width: '100%'
                         }}>
                         
                         <RenderComputerScienceExperience />
@@ -50,7 +50,7 @@ export default function Experience() {
                 alignItems: 'flex-start',
                 padding: '0px',
                 gap: '64px',
-                width: '630px',
+                width: '100%',
                 }}>
 
                     <div>
@@ -63,7 +63,7 @@ export default function Experience() {
                         alignItems: 'flex-start',
                         padding: '0px',
                         gap: '48px',
-                        width: '630px'
+                        width: '100%'
                         }}>
                         
                         <RenderOtherExperience />

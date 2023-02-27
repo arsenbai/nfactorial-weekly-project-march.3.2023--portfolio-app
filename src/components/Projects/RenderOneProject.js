@@ -6,34 +6,36 @@ export default function RenderOneProject() {
     // console.log(arrayOfData)
 
     return (
-        <div style={{
+        <div id="all-projects-div" style={{
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'flex-start'
+            alignItems: 'flex-start',
+            // width: '100%'
         }}>
 
             {arrayOfData.map((item, index) => (
-                <div style={{
+                <div id="one-project-container-div" style={{
                     display: 'flex',
                     flexDirection: 'row',
                     padding: '64px 80px',
-                    gap: '186px'
+                    gap: '10%',
+                    // width: '100%'
                 }} key={item.id}>
                     
-                    <div style={{
+                    <div id="pic-for-project" style={{
                         backgroundImage: `url(${item.pic})`,
-                        width: '626px',
+                        width: '630px',
                         height: '388px',
                         border: "4px solid #525B56",
                         order: `${(index % 2 === 0 || index === 0) ? 0 : 1}`
                     }}></div>
 
-                    <div style={{
+                    <div id="one-project-container" style={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'flex-start',
                         padding: '0px',
-                        width: '468px',
+                        // width: '44%',
                         gap: '32px',
                         order: `${(index % 2 === 0 || index === 0) ? 1 : 0}`
                         }}>

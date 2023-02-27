@@ -1,8 +1,13 @@
+.App {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* fixed To top button */
 .fixed-button {
-    position: fixed;
-    bottom: 400px;
+    position: sticky;
+    bottom: 50vh;
     left: 10px;
     z-index: 1;
     background: transparent;
@@ -17,12 +22,17 @@
 
 /* animation of 'header' section */
 #header {
-    padding: 32px 80px;
-    height: 50px;
+    padding: 16px 40px;
+    height: auto;
+    max-width: 100vw;
+    width: auto;
     background: #132226;
-    position: fixed;
+    position: sticky;
+    top: 0px;
     opacity: 0.3;
     transition: opacity 0.25s ease-in-out;
+    display: flex;
+    justify-content: space-between
 }
 
 #header:hover {
@@ -189,4 +199,218 @@ li {
 
 a {
     color: #FFFFFF;
+}
+
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 900px) {
+
+    #div-for-mobile-btn-menu {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+
+
+    .fixed-button {
+        bottom: 240px;
+        left: 6px;
+    }
+
+    #header {
+        position:sticky !important;
+        height: auto !important;
+        /* justify-content: flex-end !important; */
+        opacity: 1.0 !important;
+    }
+
+    #header:hover {
+        opacity: 1.0;
+    }
+
+    #header-container {
+        width: fit-content !important;
+        height: auto !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        align-items: flex-end !important;
+        gap: 10px !important;
+    }
+
+
+    #title-at-header {
+        height: 20px !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+    }
+
+    .headerButton {
+        margin-right: 0.5rem;
+
+        height: 16px;
+        
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 16px;
+        
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #navbar {
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
+
+    #promo {
+        padding: 80px 40px !important;
+    }
+
+    #about {
+        flex-direction: column !important;
+        padding: 20px 50px !important;
+    }
+    #about>img {
+        order: -1;
+        height: calc(100%);
+        width: 100% !important;
+        border: 2px solid #525B56;
+    }
+
+    #bio-section-div {
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+    .list-stages {
+        flex-direction: column !important;
+        margin-left: 10px !important;
+    }
+
+    .list-bullets {
+        gap: 10px !important;
+    }
+
+    .li-wrap {
+        word-wrap: break-word !important;
+    }
+    .several-line-li {
+        margin-bottom: 20px !important;
+    }
+
+
+    #one-project-container-div {
+        flex-direction: column !important;
+        padding: 25px 40px !important;
+    }
+
+    #pic-for-project {
+        display: none;
+        width: auto;
+        height: auto;
+        /* order: -1 !important;
+        width: calc(630px / 3) !important;
+        height: calc(388px / 3) !important;
+        border: 2px solid #525B56 !important */
+    }
+    #one-project-container {
+        /* width: 75% !important; */
+        gap: 16px !important;
+        
+
+        /* alignItems: 'flex-start',
+        padding: '0px',
+        width: '44%',
+        gap: '32px', */
+    }
+
+
+    #contacts {
+        padding: 80px 40px !important;
+    }
+
+    #group-of-buttons-at-contacts {
+        flex-direction: column;
+    }
+    
+
+    #experience {
+        padding: 80px 40px !important;
+        gap: 60px !important;
+    }
+    
+    #projects-container {
+        /* padding: 80px 40px !important; */
+        padding: 20px 40px !important;
+    }
+
+    /* #all-projects-div {
+        padding: 80px 40px !important;
+    }
+     */
+
+    #one-position-container {
+        flex-direction: column !important;
+    }
+
+    #item-role-company {
+        width: 100% !important;
+        /* flex-wrap: wrap !important; */
+    }
+
+    #item-descr {
+        width: 100% !important;
+        /* flex-wrap: wrap !important; */
+    }
+
+    #projects-sec-title {
+        width: auto;
+    }
+
+    #footer-container {
+        padding: 40px 40px !important;
+        flex-direction: column !important;
+        /* justify-content: space-between; */
+        gap: 5px !important;
+    }
+
+    .font60px {
+        font-weight: 500 !important;
+        font-size: 30px !important;
+        line-height: 36px !important;
+    }
+
+    .font40px {
+        font-weight: 400 !important;
+        font-size: 30px !important;
+        line-height: 22px !important;
+    }
+
+    .font20px {
+        font-weight: 200 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+
+    .font16px {
+        font-weight: 200 !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .font14px {
+        font-weight: 200 !important;
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    
+    .font12px {
+        font-weight: 200 !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
 }

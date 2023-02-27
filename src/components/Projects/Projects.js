@@ -5,13 +5,14 @@ export default function Projects() {
         <div id="projects" style={{
             display: 'flex',
             flexDirection: 'column',
-            // alignItems: 'flex-start'
+
         }}>
 
-            <div className="font60px" style={{
-                padding: '160px 80px 64px'
+            <div id="projects-container" style={{
+                padding: '160px 80px 64px',
+
             }}>
-                Projects I’ve Worked On
+                <p id="projects-sec-title" className="font60px">Projects I’ve Worked On</p>
             </div>
 
             <RenderOneProject />
