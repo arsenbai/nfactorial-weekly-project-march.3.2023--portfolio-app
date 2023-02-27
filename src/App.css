@@ -274,10 +274,11 @@ a {
         flex-direction: column !important;
         padding: 20px 50px !important;
     }
-    #about>img {
+    
+    #profilepic {
         order: -1;
-        height: calc(76.5%) !important;
-        width: calc(100%) !important;
+        height: calc(85vw * 0.76) !important; /*650px*/
+        width: calc(85vw) !important; /*850px*/
         border: 2px solid #525B56;
     }
 
