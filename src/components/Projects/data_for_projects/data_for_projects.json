@@ -20,6 +20,13 @@
             "projectname": "🤖 Telegram Bot for Allur company's HR",
             "projectdescription": "I've made Telegram bot for Allur company's HR. The bot helps the employees getting information via bot commands that send HR documents 📁 and forms 📃.",
             "stackused": "Python 🐍"
+        },
+        {
+            "id": "3",
+            "pic": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/45/10/1e/45101e8d-d023-5681-0bbf-e0962774db98/source/512x512bb.jpg",
+            "projectname": "⛈🌡Weather Assistant App",
+            "projectdescription": "This web application notifies via email all subscribers if rain is forecasted to happen in the selected city. The client-side is made at React.JS (Vite + Material UI). Server-side is made at Node.JS (Express.JS + MongoDB).",
+            "stackused": "MERN (MongoDB, Express.js, React.js, Node.js)"
         }
     ]
 }
